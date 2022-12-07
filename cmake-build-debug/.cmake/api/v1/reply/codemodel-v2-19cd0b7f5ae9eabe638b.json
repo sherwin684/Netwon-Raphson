@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Home_Exercise_1",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Home_Exercise_1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Home_Exercise_1-Debug-e4e34bf8d9e6227a7371.json",
+					"name" : "Home_Exercise_1",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/Sherwin/COMMAS/5. Sem/Others/2. Implementation and algorithms/Home_Exercise_1/cmake-build-debug",
+		"source" : "D:/Sherwin/COMMAS/5. Sem/Others/2. Implementation and algorithms/Home_Exercise_1"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
