@@ -1,5 +1,6 @@
 //
 // Created by Sherwin on 12/4/2022.
+// Submitted by Sherwin Rajkumar - Matr. no. 3509113
 //
 
 #include "Newton.h"
@@ -14,7 +15,7 @@ void Newton::Root()
     // Step 1:
     x0 = initial_root;
 
-    cout << "initial guess = " << x0 << endl;
+    cout << "Initial guess = " << x0 << endl;
 
     for (int counter = 0; counter < 10000; counter++)
     {
@@ -33,7 +34,7 @@ void Newton::Root()
         // Step 5:
         if (fabs(x1-x0) < tolerance)
         {
-            cout << "number of iteration: " << counter << endl;
+            cout << "Number of iterations: " << counter << endl;
             flag = true;
             solution = x1;
             return;
@@ -41,10 +42,10 @@ void Newton::Root()
         else
             x0 = x1;
 
-        // Check if there is no root
+        // Checking if a root exists
         if (counter == 9999)
         {
-            cout << "Increase the iteration counter or it can be a complex root!" << endl;
+            cout << "Solver did not converge!" << endl;
             flag = false;
             return;
         }

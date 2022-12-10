@@ -1,5 +1,6 @@
 //
 // Created by Sherwin on 12/4/2022.
+// Submitted by Sherwin Rajkumar - Matr. no. 3509113
 //
 
 #ifndef HOME_EXERCISE_1_FUNCTION_H
@@ -12,9 +13,7 @@ public:
     virtual double ff_of_x(double x) = 0;
 };
 
-#include "Function1.h"
-#include "Function2.h"
-#include "Sinx.h"
+#include "input.h"
 
 
 #endif //HOME_EXERCISE_1_FUNCTION_H

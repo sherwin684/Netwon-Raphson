@@ -1,9 +1,10 @@
 //
 // Created by Sherwin on 12/4/2022.
+// Submitted by Sherwin Rajkumar - Matr. no. 3509113
 //
 
-#ifndef HOME_EXERCISE_1_PROBLEMA_H
-#define HOME_EXERCISE_1_PROBLEMA_H
+#ifndef HOME_EXERCISE_1_INPUT_H
+#define HOME_EXERCISE_1_INPUT_H
 
 #include "math.h"
 
@@ -42,7 +43,7 @@ public:
 };
 
 // Problem b (sin(x) - x/2, x0 =1, x0=2, x0=0.5)
-class ProblemC : public Function
+class ProblemC : public  Function
 {
 public:
     double f_of_x(double _x)
@@ -60,4 +61,4 @@ public:
 
 
 
-#endif //HOME_EXERCISE_1_PROBLEMA_H
+#endif //HOME_EXERCISE_1_INPUT_H
