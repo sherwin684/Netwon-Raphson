@@ -15,19 +15,19 @@ protected:
     double tolerance;
     double solution;
     bool flag;
-    Function* funct;
+    Function* myfunct;
 
 public:
-    Newton(Function *_f, double _a)
+    Newton(Function *_mf, double _a)
     {
         initial_root = _a;
         tolerance    = 1e-8;
         flag      = false;
         solution     = 0;
-        funct      = _f;
+        myfunct      = _mf;
     }
 
-    void root();
+    void Root();
     void output();
 
 

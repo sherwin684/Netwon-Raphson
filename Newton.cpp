@@ -8,7 +8,7 @@
 using namespace std;
 
 
-void Newton::root()
+void Newton::Root()
 {
     double x0, fx0, ffx0, x1;
 
@@ -20,11 +20,11 @@ void Newton::root()
     for (int counter = 0; counter < 10000; counter++)
     {
         // Step 2:
-        fx0 = funct->f_of_x(x0);
+        fx0 = myfunct->f_of_x(x0);
 
 
         // Step 3:
-        ffx0 = funct->ff_of_x(x0);
+        ffx0 = myfunct->ff_of_x(x0);
 
 
         // Step 4:
